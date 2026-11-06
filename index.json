@@ -1,0 +1,11 @@
+{
+  "org": "huggingface",
+  "repo": "optimum-onnx",
+  "versions": [
+    {
+      "commit": "46533fb66570021f52a39d77112b703762fdaada",
+      "tag": "",
+      "parsed_at": "2026-11-06T06:29:33.861366+00:00"
+    }
+  ]
+}
