@@ -1,0 +1,28 @@
+[2026-11-23T07:56:51Z] === ENRICH ITERATION 1 START | repo=huggingface/optimum-onnx sha=d2328e38 ===
+[2026-11-23T07:56:51Z] [iter=1] PHASE START: enrich repo=huggingface/optimum-onnx sha=d2328e38 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d2328e38-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d2328e386a81b0970a458a7570a38b131414edc6.nq.gz
+[2026-11-23T07:57:09Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-23T07:57:19Z] [iter=1] AST store loaded triples=1349250 load_secs=10 mem_mb=947 MB
+[2026-11-23T07:57:19Z] [iter=1] Step 2: Finding LSP targets mem_mb=947 MB
+[2026-11-23T07:57:23Z] [iter=1] LSP targets found call_sites=8475 imports=851 extends=350 implements=0 secs=4
+[2026-11-23T07:57:26Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=947 MB
+[2026-11-23T07:57:35Z] [iter=1] Position index built positions=93381 nodes_with_types=120581 secs=9 mem_mb=947 MB
+[2026-11-23T07:57:35Z] [iter=1] Step 3: Starting LSP resolution mem_mb=947 MB already_completed_types=[] already_completed_files=0
+[2026-11-23T07:57:35Z] [iter=1] Resolving target type target_type=call_site count=8475
+[2026-11-23T07:57:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=0 resolved=0 errors=0 current=tests/onnxruntime/test_modeling.py
+[2026-11-23T08:05:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.2 files_done=1 resolved=1098 errors=0 current=optimum/onnx/utils.py
+[2026-11-23T08:08:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.3 files_done=3 resolved=1478 errors=0 current=examples/onnxruntime/optimization/multiple-choice/run_swag.py
+[2026-11-23T08:09:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.8 files_done=5 resolved=1771 errors=0 current=tests/onnxruntime/test_seq2seq.py
+[2026-11-23T08:13:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.4 files_done=6 resolved=2214 errors=0 current=optimum/onnxruntime/modeling_diffusion.py
+[2026-11-23T08:16:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.5 files_done=7 resolved=2365 errors=0 current=tests/exporters/onnx/test_export_cli.py
+[2026-11-23T08:16:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.1 files_done=8 resolved=2476 errors=0 current=examples/onnxruntime/optimization/question-answering/utils_qa.py
+[2026-11-23T08:20:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.2 files_done=10 resolved=2809 errors=0 current=optimum/onnxruntime/configuration.py
+[2026-11-23T08:20:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.0 files_done=12 resolved=3006 errors=0 current=examples/onnxruntime/optimization/question-answering/run_qa.py
+[2026-11-23T08:21:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.7 files_done=14 resolved=3131 errors=0 current=optimum/onnxruntime/modeling_decoder.py
+[2026-11-23T08:22:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.2 files_done=16 resolved=3298 errors=0 current=tests/onnxruntime/test_optimization.py
+[2026-11-23T08:23:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.4 files_done=17 resolved=3412 errors=0 current=optimum/onnxruntime/quantization.py
+[2026-11-23T08:24:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.9 files_done=19 resolved=3722 errors=0 current=optimum/onnxruntime/base.py
+[2026-11-23T08:26:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.0 files_done=21 resolved=4096 errors=0 current=optimum/exporters/onnx/base.py
+[2026-11-23T08:26:52Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=30.0 files_completed=21 new_files_this_iter=21 mem_mb=947 MB
+[2026-11-23T08:26:52Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/d2328e386a81b0970a458a7570a38b131414edc6.nq.gz triples=41719
+[2026-11-23T08:26:53Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-11-23T08:26:53Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=1801 elapsed_min=30.0 files_completed=21
