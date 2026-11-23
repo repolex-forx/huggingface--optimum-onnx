@@ -1,0 +1,31 @@
+[2026-11-23T08:28:56Z] === ENRICH ITERATION 2 START | repo=huggingface/optimum-onnx sha=d2328e38 ===
+[2026-11-23T08:28:56Z] [iter=2] PHASE START: enrich repo=huggingface/optimum-onnx sha=d2328e38 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d2328e38-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d2328e386a81b0970a458a7570a38b131414edc6.nq.gz
+[2026-11-23T08:29:14Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-23T08:29:24Z] [iter=2] AST store loaded triples=1349250 load_secs=10 mem_mb=947 MB
+[2026-11-23T08:29:24Z] [iter=2] Step 2: Finding LSP targets mem_mb=947 MB
+[2026-11-23T08:29:28Z] [iter=2] LSP targets found call_sites=8475 imports=851 extends=350 implements=0 secs=4
+[2026-11-23T08:29:30Z] [iter=2] Loaded checkpoint partial graph triples=41719
+[2026-11-23T08:29:30Z] [iter=2] Primed enclosing-def cache from persisted triples entries=425
+[2026-11-23T08:29:33Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=947 MB
+[2026-11-23T08:29:42Z] [iter=2] Position index built positions=93381 nodes_with_types=120581 secs=9 mem_mb=947 MB
+[2026-11-23T08:29:42Z] [iter=2] Step 3: Starting LSP resolution mem_mb=947 MB already_completed_types=[] already_completed_files=21
+[2026-11-23T08:29:42Z] [iter=2] Resolving target type target_type=call_site count=8475
+[2026-11-23T08:29:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=0.8 files_done=0 resolved=0 errors=0 current=optimum/exporters/onnx/base.py
+[2026-11-23T08:31:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=2.7 files_done=2 resolved=119 errors=0 current=examples/onnxruntime/quantization/image-classification/run_image_classification.py
+[2026-11-23T08:32:16Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.3 files_done=5 resolved=270 errors=0 current=examples/onnxruntime/quantization/question-answering/trainer_qa.py
+[2026-11-23T08:32:50Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.9 files_done=8 resolved=323 errors=0 current=optimum/exporters/onnx/_traceable_cache.py
+[2026-11-23T08:33:37Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=4.7 files_done=15 resolved=689 errors=0 current=optimum/onnx/transformations_utils.py
+[2026-11-23T08:34:07Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=5.2 files_done=18 resolved=1009 errors=0 current=examples/onnxruntime/optimization/text-classification/run_glue.py
+[2026-11-23T08:35:10Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=6.2 files_done=20 resolved=1298 errors=0 current=examples/onnxruntime/quantization/token-classification/run_ner.py
+[2026-11-23T08:36:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=7.3 files_done=22 resolved=1518 errors=0 current=tests/onnxruntime/test_timm.py
+[2026-11-23T08:36:55Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=27 resolved=1787 errors=0 current=optimum/onnxruntime/preprocessors/passes/gelu.py
+[2026-11-23T08:37:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=8.5 files_done=41 resolved=1961 errors=0 current=examples/gemma3.py
+[2026-11-23T08:37:38Z] [iter=2] Target type resolved target_type=call_site resolved=1970 errors=0 secs=476 mem_mb=947 MB
+[2026-11-23T08:37:38Z] [iter=2] Resolving target type target_type=import_statement count=851
+[2026-11-23T08:37:41Z] [iter=2] Target type resolved target_type=import_statement resolved=259 errors=0 secs=4 mem_mb=947 MB
+[2026-11-23T08:37:41Z] [iter=2] Resolving target type target_type=extends_clause count=350
+[2026-11-23T08:37:44Z] [iter=2] Target type resolved target_type=extends_clause resolved=61 errors=0 secs=2 mem_mb=947 MB
+[2026-11-23T09:04:36Z] [iter=2] Step 5: Writing final enrichment file triples=86321
+[2026-11-23T09:04:37Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/d2328e386a81b0970a458a7570a38b131414edc6.nq.gz size_kb=1957
+[2026-11-23T09:04:37Z] [iter=2] Checkpoint cleared (enrichment complete)
+[2026-11-23T09:04:37Z] [iter=2] PHASE END: enrich elapsed_s=2141 elapsed_min=35.7 total_triples=86321

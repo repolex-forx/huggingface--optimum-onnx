@@ -328,6 +328,554 @@
       ],
       "ast": [
         "aggregate/ast/d2328e386a81b0970a458a7570a38b131414edc6/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/d2328e386a81b0970a458a7570a38b131414edc6.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "optimum",
+          "ecosystem": "PYPI",
+          "version": "2.1.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "optimum",
+          "githubCommit": "8cfe543cbd7192e0de3004b856bf93fe570d300c",
+          "githubTag": "v2.1.0",
+          "githubUrl": "https://github.com/huggingface/optimum",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "transformers",
+          "ecosystem": "PYPI",
+          "version": "4.36",
+          "githubOrg": "huggingface",
+          "githubRepo": "transformers",
+          "githubUrl": "https://github.com/huggingface/transformers",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "onnx",
+          "ecosystem": "PYPI",
+          "version": "1.23.2",
+          "githubOrg": "onnx",
+          "githubRepo": "onnx",
+          "githubCommit": "e1ac8e74b620bbdc7ba07f0440806bd93f651a28",
+          "githubTag": "v1.23.2",
+          "githubUrl": "https://github.com/onnx/onnx",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "accelerate",
+          "ecosystem": "PYPI",
+          "version": "0.26.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "accelerate",
+          "githubCommit": "e09c72417d87d6729c2fdccf53f644932a70cda1",
+          "githubTag": "v0.26.0",
+          "githubUrl": "https://github.com/huggingface/accelerate",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "datasets",
+          "ecosystem": "PYPI",
+          "version": "5.2.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "datasets",
+          "githubCommit": "e45c5b38100d0a39f7d29e31431075051b97485b",
+          "githubTag": "5.2.0",
+          "githubUrl": "https://github.com/huggingface/datasets",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "einops",
+          "ecosystem": "PYPI",
+          "version": "0.9.0.dev0",
+          "githubOrg": "arogozhnikov",
+          "githubRepo": "einops",
+          "githubUrl": "https://github.com/arogozhnikov/einops",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "hf-xet",
+          "ecosystem": "PYPI",
+          "version": "1.8.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "xet-core",
+          "githubCommit": "e551f0a75f989b8ee1a474c5f83c80ad4903f84d",
+          "githubTag": "v1.8.0",
+          "githubUrl": "https://github.com/huggingface/xet-core",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "parameterized",
+          "ecosystem": "PYPI",
+          "version": "0.9.0",
+          "githubOrg": "wolever",
+          "githubRepo": "parameterized",
+          "githubCommit": "8719c41604c41a0ee372511ea87d2ecbb3215f8d",
+          "githubTag": "v0.9.0",
+          "githubUrl": "https://github.com/wolever/parameterized",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pillow",
+          "ecosystem": "PYPI",
+          "version": "13.0.0",
+          "githubOrg": "python-pillow",
+          "githubRepo": "Pillow",
+          "githubCommit": "293218ad059d994baf1777d882911bed6a49704a",
+          "githubTag": "13.0.0",
+          "githubUrl": "https://github.com/python-pillow/Pillow",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest-xdist",
+          "ecosystem": "PYPI",
+          "version": "3.8.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-xdist",
+          "githubCommit": "1e3e4dc16523c8a8f6c67d95a950166420718c99",
+          "githubTag": "v3.8.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-xdist",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "9.2.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "ae1d0ff57b8bd4252da9ade7353523ac0ac73281",
+          "githubTag": "9.2.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "safetensors",
+          "ecosystem": "PYPI",
+          "version": "0.8.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "safetensors",
+          "githubCommit": "a406ca3e7a90598be0cd05a50069cb9bf5ef6ba6",
+          "githubTag": "v0.8.0",
+          "githubUrl": "https://github.com/huggingface/safetensors",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "scipy",
+          "ecosystem": "PYPI",
+          "version": "1.18.1",
+          "githubOrg": "scipy",
+          "githubRepo": "scipy",
+          "githubCommit": "e4e854eaa8f18d807cd3496028e257e36caa93cc",
+          "githubTag": "v1.18.1",
+          "githubUrl": "https://github.com/scipy/scipy",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sentencepiece",
+          "ecosystem": "PYPI",
+          "version": "0.2.3",
+          "githubOrg": "google",
+          "githubRepo": "sentencepiece",
+          "githubCommit": "eafd99cf3b8bfa5101c2c5f42aab2cc39947938d",
+          "githubTag": "v0.2.3",
+          "githubUrl": "https://github.com/google/sentencepiece",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "timm",
+          "ecosystem": "PYPI",
+          "version": "1.0.31",
+          "githubOrg": "huggingface",
+          "githubRepo": "pytorch-image-models",
+          "githubCommit": "43b549bfe9d680bc94284cfd0b611152d18e97d7",
+          "githubTag": "v1.0.31",
+          "githubUrl": "https://github.com/huggingface/pytorch-image-models",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "onnxslim",
+          "ecosystem": "PYPI",
+          "version": "0.1.60",
+          "githubOrg": "inisis",
+          "githubRepo": "OnnxSlim",
+          "githubUrl": "https://github.com/inisis/OnnxSlim",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "rjieba",
+          "ecosystem": "PYPI",
+          "version": "0.2.2",
+          "githubOrg": "messense",
+          "githubRepo": "rjieba-py",
+          "githubCommit": "8cc8808dbae251afc50a88f11ba8143283a6c6b1",
+          "githubTag": "v0.2.2",
+          "githubUrl": "https://github.com/messense/rjieba-py",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "sacremoses",
+          "ecosystem": "PYPI",
+          "version": "0.2.0",
+          "githubOrg": "hplt-project",
+          "githubRepo": "sacremoses",
+          "githubUrl": "https://github.com/hplt-project/sacremoses",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "ruff",
+          "ecosystem": "PYPI",
+          "version": "0.12.3",
+          "githubOrg": "astral-sh",
+          "githubRepo": "ruff",
+          "githubCommit": "5bc81f26c8a820835067280153a279658477ccf2",
+          "githubTag": "0.12.3",
+          "githubUrl": "https://github.com/astral-sh/ruff",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "collections",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "builtins",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "typing",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "inspect",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "re",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "ntpath",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "posixpath",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "pathlib._local",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "gc",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "itertools",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "tempfile",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "huggingface-hub",
+          "ecosystem": "PYPI",
+          "version": "2.4.0",
+          "githubOrg": "huggingface",
+          "githubRepo": "huggingface_hub",
+          "githubCommit": "3739729b86489e4ae28b5a62e622be320b141493",
+          "githubTag": "v2.4.0",
+          "githubUrl": "https://github.com/huggingface/huggingface_hub",
+          "source": "lsp",
+          "raw_name": "huggingface_hub",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/huggingface_hub/hf_api.py"
+        },
+        {
+          "packageName": "torch",
+          "ecosystem": "PYPI",
+          "version": "2.15.0",
+          "githubOrg": "pytorch",
+          "githubRepo": "pytorch",
+          "githubCommit": "31a77fc9c0a7c6fff15a1ff58c743f53b1a9d457",
+          "githubTag": "v2.15.0",
+          "githubUrl": "https://github.com/pytorch/pytorch",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/torch/autograd/grad_mode.py"
+        },
+        {
+          "packageName": "functools",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "dataclasses",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "logging",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "os",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "os.path",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "2.5.5",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "afcbc6d21a88a7b59c5bfe115198e24ed51b3dae",
+          "githubTag": "v2.5.5",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/numpy/_core/fromnumeric.py"
+        },
+        {
+          "packageName": "copy",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "unittest.case",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "importlib",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "json",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "tqdm",
+          "ecosystem": "PYPI",
+          "version": "4.70.1",
+          "githubOrg": "tqdm",
+          "githubRepo": "tqdm",
+          "githubCommit": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+          "githubTag": "v4.70.1",
+          "githubUrl": "https://github.com/tqdm/tqdm",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/tqdm/auto.py"
+        },
+        {
+          "packageName": "posix",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "argparse",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "hashlib",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "multiprocessing.connection",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "multiprocessing.process",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "multiprocessing",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "unittest.mock",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.34.2",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+          "githubTag": "v2.34.2",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/requests/api.py"
+        },
+        {
+          "packageName": "packaging",
+          "ecosystem": "PYPI",
+          "version": "26.3.0",
+          "githubOrg": "pypa",
+          "githubRepo": "packaging",
+          "githubUrl": "https://github.com/pypa/packaging",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/packaging/version.py"
+        },
+        {
+          "packageName": "_collections_abc",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "_warnings",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "subprocess",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "unittest",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "pathlib",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "sys",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "enum",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "abc",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "traceback",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "contextlib",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "shutil",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        },
+        {
+          "packageName": "warnings",
+          "ecosystem": "PYPI",
+          "githubOrg": "python",
+          "githubRepo": "cpython",
+          "source": "stdlib:python"
+        }
       ]
     }
   ],
